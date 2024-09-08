@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(205, 242, 242);
+}
+
+.tipcal{
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+
+
+.info{
+      /*display: inline-block;*/
+      width: 50%;
+      float: left;
+      padding: 20px;
+      border-radius: 15px;
+     
+}
+
+
+
+.total{
+    /*display: inline-block;*/
+    width: 50%;
+    float: right;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(2, 94, 2);
+    color: white;
+}
