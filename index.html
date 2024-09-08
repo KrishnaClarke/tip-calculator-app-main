@@ -18,37 +18,38 @@
 <body>
 <div>
   <form>
-    <p> Bill</p><br>
+    <label class="title"> Bill</label><br>
+    <input class="user input" type="text"><br>
 
       <div>
-      <title>Select Tip %</title>
-          <div>
-            <input type="button" name="5%">
-            10%
-            15%
+      <title class="title">Select Tip %</title>
+          <div class="tips">
+            <input class="button" type="button" name="5%" value="5%">
+            <input class="button" type="button" name="10%" value="10%">
+            <input class="button" type="button" name=" 15%" value="15%">
           </div><br>
-          <div>
-            25%
-            50%
-            Custom
+          <div class="tips">
+            <input class="button" type="button" name="25%" value="25%">
+            <input class="button" type="button" name="50%" value="50%">
+            <input class="button" type="button" name="Custom" value="Custom">
           </div><br>
       
       </div>
 
-      <label>Number of People</label><br>
-      <input type="text"><br>
+      <label class="title">Number of People</label><br>
+      <input class="user input" type="text"><br>
 
-    <div>
+    <div class="total">
       <label>Tip Amount</label><br>
       <p>/ person</p><br>
-      <input type="text"><br><br>
+      <input class="user total" type="text"><br><br>
 
       <label>Total</label><br>
       <p>/ person</p><br>
-      <input type="text"><br><br>
+      <input class="user total" type="text"><br><br>
 
 
-      <button>Reset</button>
+      <button class="reset">Reset</button>
     </div>
   </form>
 </div> 
