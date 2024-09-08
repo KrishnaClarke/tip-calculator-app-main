@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css" />
   
   <title>Frontend Mentor | Tip calculator app</title>
 
@@ -15,27 +16,42 @@
   </style>
 </head>
 <body>
+<div>
+  <form>
+    <p> Bill</p><br>
 
-  Bill
+      <div>
+      <title>Select Tip %</title>
+          <div>
+            <input type="button" name="5%">
+            10%
+            15%
+          </div><br>
+          <div>
+            25%
+            50%
+            Custom
+          </div><br>
+      
+      </div>
 
-  Select Tip %
-  5%
-  10%
-  15%
-  25%
-  50%
-  Custom
+      <label>Number of People</label><br>
+      <input type="text"><br>
 
-  Number of People
+    <div>
+      <label>Tip Amount</label><br>
+      <p>/ person</p><br>
+      <input type="text"><br><br>
 
-  Tip Amount
-  / person
+      <label>Total</label><br>
+      <p>/ person</p><br>
+      <input type="text"><br><br>
 
-  Total
-  / person
 
-  Reset
-  
+      <button>Reset</button>
+    </div>
+  </form>
+</div> 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
