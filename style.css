@@ -8,25 +8,34 @@ body{
 }
 
 
-
-
-.info{
-      /*display: inline-block;*/
-      width: 50%;
-      float: left;
-      padding: 20px;
-      border-radius: 15px;
-     
+.container{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    gap: 4%;
 }
 
+.info, .total{
+    display: inline-block;
+    width: 48%;
+    margin-right: 2%;
+    vertical-align: top;
+}
 
+.info{
+      padding: 20px;
+      border-radius: 15px;    
+}
+
+.userinput{
+    height: 20px;
+    width: 15px;
+    border-radius: 15px;
+}
 
 .total{
-    /*display: inline-block;*/
-    width: 50%;
-    float: right;
     padding: 20px;
     border-radius: 15px;
     background-color: rgb(2, 94, 2);
     color: white;
+    margin-right: 0;
 }
